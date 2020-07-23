@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            LOGIN PAGE
+        </title>
+        <style>
+        *{margin: 0; padding: 0;}
+        body{
+        background-color: coral;
+        padding-top: 30vh;
+        }
+        .form-container{
+        width: 250px;
+        height: auto;
+        padding: 20px 30px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        margin:auto;
+        text-align: center;
+        }
+        ul.list{
+            list-style-type: none;
+            text-align: center;
+        }
+        ul.list li{
+            width: 250px;
+            margin-bottom: 10px;
+            color: black;
+            text-align: center;
+        }
+        ul.list li input{
+            width: 250px;
+            text-align: center;
+            padding: 10px;
+            border: none;
+            background-color:white;
+            color: black;
+            border-radius: 5px;
+        }
+        ul.list li input[type="button"]{
+            background-color:chartreuse;
+            color: black;
+            text-align: center;
+        }
+        ul.list li:nth-child(5){
+            color: red;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="form-container">
+            <ul class="list">
+                <li><h1>Member Login</h1></li>
+                <li><input type="text" name="Username" placeholder="Username"></li>
+                <li><input type="password" name="Password" placeholder="Password"></li>
+                <li><input type="button" name="Submit" value="Submit"></li>
+                <li>Forget Password</li>
+            </ul>
+        </div>
+    </body>
+</html>

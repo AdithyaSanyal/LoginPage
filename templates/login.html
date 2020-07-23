@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title> Login </title>
+         <style>
+             *{margin: 0;padding: 0;}
+             body{
+                background-color:black;
+            }
+            form{
+                border: 3px;
+                text-align: center;
+                padding-top: 150px;
+                font-size: large;
+                color:white ;
+            }
+            input[type=text],input[type=password]{
+                color: darkred;
+                width: 10%; 
+                padding: 5px;
+                margin: 8px 0; 
+                display: inline-block; 
+                border: 1px solid #ccc; 
+                box-sizing:border-box ;
+                text-align: center; 
+             } 
+    
+      
+            button { 
+                background-color: #4CAF50; 
+                color: white; 
+                padding: 14px 20px; 
+                margin: 8px 0; 
+                border: none; 
+                cursor: pointer; 
+                width: 10%; 
+                text-align: center;
+            } 
+            
+         </style>
+    </head>
+    <body>
+        <form action="" method="POST">
+            <label> Enter Id: </label> <br>
+            <input type="text" name="id"><br><br>  
+            <label> Enter Password: </label> <br>
+            <input type="password" name="Password"> <br><br>
+            <button type="submit"> Login </button>
+        </form>
+    </body>
+</html>
